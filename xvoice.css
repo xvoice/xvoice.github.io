@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#main{
+	z-index:0;
+	margin-bottom:0px;
+	font-family: 'Open Sans', sans-serif;
+	height:100%;
+	width: 100%;
+	position: absolute;
+	color:black;
+	font-size:50px;
+	background-color:#0FDDAF;
+	text-align: center;
+}
+#button-blue{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	width: 300px;
+	margin:0 auto;
+	top:50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #0FDDAF;
+	color:white;
+	font-size:24px;
+	padding-top:21px;
+	padding-bottom:20px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: white;
+	color: #0FDDAF;
+}
